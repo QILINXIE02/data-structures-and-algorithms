@@ -57,7 +57,6 @@ const forLoopTwoToThe = (arr) => {
   return result;
 };
 
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
 
@@ -65,7 +64,11 @@ Write a function named forEachTwoToThe that produces the same output as your for
 ------------------------------------------------------------------------------------------------ */
 
 const forEachTwoToThe = (arr) => {
-  // Solution code here...
+  const result = [];
+  arr.forEach(number => {
+    result.push(Math.pow(2, number));
+  });
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------
