@@ -93,8 +93,10 @@ For example: charCode(['h','i']) returns [104, 105].
 ------------------------------------------------------------------------------------------------ */
 
 const charCode = (arr) => {
-  // Solution code here...
+  return arr.map(letter => letter.charCodeAt(0));
 };
+
+console.log(charCode(['h', 'i']));
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 8 - Stretch Goal
