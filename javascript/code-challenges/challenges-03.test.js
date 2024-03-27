@@ -1,5 +1,7 @@
 'use strict';
 
+const { data } = require("cheerio/lib/api/attributes");
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 1 - Review
 
@@ -109,8 +111,10 @@ const snorlaxData = {
 };
 
 const getBaseStatGreaterThan = (arr, minBaseStat) => {
-  // Solution code here...
+  return arr.filter(stat => stat.baseStat > minBaseStat);
 };
+
+console.log(getBaseStatGreaterThan(snorlaxData.stats, 50));
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
