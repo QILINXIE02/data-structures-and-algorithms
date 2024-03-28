@@ -46,7 +46,15 @@ Ensure that the original people array and stuff objects are unchanged
 ------------------------------------------------------------------------------------------------ */
 
 const setState = (arr, obj) => {
-  // Solution code here...
+  const newPeople = [...arr];
+  const newStuff = { ...obj };
+
+  const newState = {
+    people: newPeople,
+    stuff: newStuff
+  };
+
+  return newState;
 };
 
 
