@@ -125,10 +125,14 @@ const gruffaloCrumble = {
 
 
 const listFoods = (recipe) => {
-  let result = [];
-  // Solution code here...
+  let result = recipe.ingredients.map(ingredient => {
+    const words = ingredient.split(' ');
+    const foodItem = words.slice(2).join(' ');
+    return foodItem;
+  });
   return result;
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
