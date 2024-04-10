@@ -96,8 +96,11 @@ Write a function named containsWorld that takes in a string or number of any len
 ------------------------------------------------------------------------------------------------ */
 
 const containsWorld = (input) => {
-
+  const strInput = String(input);
+  const pattern = /\bworld\b/;
+  return pattern.test(strInput.toLowerCase()) && pattern.test(strInput);
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
@@ -118,7 +121,7 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 ------------------------------------------------------------------------------------------------ */
 
 const citiesAtoJ = (arr) => {
-  // Solution code here...
+  return arr.filter(city => /^[A-J]/i.test(city));
 };
 
 /* ------------------------------------------------------------------------------------------------
