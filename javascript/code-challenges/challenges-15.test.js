@@ -98,7 +98,8 @@ let starWarsData = [{
 }];
 
 let biggerThanLuke = (arr) => {
-  // Solution code here...
+const lukeMass = parseInt(arr.find(character => character.name === 'Luke Skywalker').mass);
+  return arr.filter(character => parseInt(character.mass) > lukeMass).map(character => character.name).join(' - ');
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -116,7 +117,7 @@ This data could be sorted by name or price.
 ------------------------------------------------------------------------------------------------ */
 
 const sortBy = (property, arr) => {
-  // Solution code here...
+  return arr.sort((a, b) => a[property] > b[property] ? 1 : -1);
 };
 
 /* ------------------------------------------------------------------------------------------------
