@@ -11,7 +11,7 @@ Write a function named screenForNames that takes in an array of strings and uses
 ------------------------------------------------------------------------------------------------ */
 
 const screenForNames = (arr) => {
-  return arr.filter(name => /^(Mr\.|Mrs\.|Ms\.|Dr\.) [A-Za-z\s]+$/.test(name));
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -98,8 +98,7 @@ let starWarsData = [{
 }];
 
 let biggerThanLuke = (arr) => {
-const lukeMass = parseInt(arr.find(character => character.name === 'Luke Skywalker').mass);
-  return arr.filter(character => parseInt(character.mass) > lukeMass).map(character => character.name).join(' - ');
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -133,7 +132,7 @@ https://secure.com returns true because the URL is secure
 https:/missingslash.org returns false because the URL is malformed
 ------------------------------------------------------------------------------------------------ */
 const isSecure = (url) => {
-  // Solution code here...
+  return /^https:\/\//.test(url);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -156,7 +155,13 @@ Here is a sample board:
 ------------------------------------------------------------------------------------------------ */
 
 const detectTicTacToeWin = (board) => {
-  // Solution code here...
+  const checkLine = (a, b, c) => a === b && b === c && a !== '';
+  for (let i = 0; i < 3; i++) {
+    if (checkLine(board[i][0], board[i][1], board[i][2]) || checkLine(board[0][i], board[1][i], board[2][i])) {
+      return true;
+    }
+  }
+  return checkLine(board[0][0], board[1][1], board[2][2]) || checkLine(board[0][2], board[1][1], board[2][0]);
 };
 
 /* ------------------------------------------------------------------------------------------------
