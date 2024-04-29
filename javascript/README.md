@@ -1,3 +1,10 @@
+# Table of Contents 401 - code challenges readme documentation:
+
+## [1. Array-reverse Code Challenge: Class 01](arrays/reverse/README.md)
+
+
+
+ORIGINAL README BELOW:
 # Data Structures and Algorithms
 
 ## Language: `JavaScript`
