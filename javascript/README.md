@@ -1,7 +1,7 @@
 # Table of Contents 401 - code challenges readme documentation:
 
 ## [1. Array-reverse Code Challenge: Class 01](arrays/reverse/README.md)
-
+## [1=2. Array-insert-shift Code Challenge: Class 02](arrays/insert-shift/README.md)
 
 
 ORIGINAL README BELOW:
