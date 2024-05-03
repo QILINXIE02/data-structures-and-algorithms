@@ -3,7 +3,7 @@
 ## [1. Array-reverse Code Challenge: Class 01](arrays/reverse/README.md)
 ## [2. Array-insert-shift Code Challenge: Class 02](arrays/insert-shift/README.md)
 ## [3. Array-binary-search Code Challenge: Class 03](arrays/binary-search/README.md)
-
+## [5. Linked-list Code challenge: Class 05](linked-list/README.md)
 ORIGINAL README BELOW:
 # Data Structures and Algorithms
 
