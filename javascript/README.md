@@ -4,7 +4,7 @@
 ## [2. Array-insert-shift Code Challenge: Class 02](arrays/insert-shift/README.md)
 ## [3. Array-binary-search Code Challenge: Class 03](arrays/binary-search/README.md)
 ## [5. Linked-list Code challenge: Class 05](linked-list/README.md)
-## [6. Linked-list-insertion Code Challenge: Class 06 ](linked-list-insertion/README.md)
+## [6. Linked-list-insertion Code Challenge: Class 06 ](Linked-list-insertion/README.md)
 
 
 
