@@ -6,6 +6,7 @@
 ## [5. Linked-list Code challenge: Class 05](linked-list/README.md)
 ## [6. Linked-list-insertion Code Challenge: Class 06 ](Linked-list-insertion/README.md)
 ## [7. Linked-list-kth Code Challenge: Class 07 ](linked-list-kth/README.md)
+## [8. Linked-list-zip Code Challenge: Class 08 ](linked-list-zip/README.md)
 
 
 ORIGINAL README BELOW:
