@@ -8,6 +8,9 @@
 ## [7. Linked-list-kth Code Challenge: Class 07 ](linked-list-kth/README.md)
 ## [8. Linked-list-zip Code Challenge: Class 08 ](linked-list-zip/README.md)
 ## [10. Stacked-and-queue Code Challenge: Class 10 ](stack-and-queue/README.md)
+## [11. Stacked-queue-pseudo Code Challenge: Class 11 ](Stack-queue-pseudo/README.md)
+
+
 
 ORIGINAL README BELOW:
 # Data Structures and Algorithms
