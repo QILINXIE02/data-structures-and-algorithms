@@ -1,5 +1,5 @@
 
-# Linked-List-kth Code Challenge: Class 07
+# Stack-and-queue Code Challenge: Class 11
 Implement a Stack and Queue using a Linked List as the underlying data storage mechanism. The Stack should support operations such as push, pop, peek, and isEmpty. The Queue should support operations such as enqueue, dequeue, peek, and isEmpty.
 
 ## Whiteboard Process
