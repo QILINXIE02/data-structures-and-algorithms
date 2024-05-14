@@ -1,6 +1,6 @@
 
-# Linked-List-kth Code Challenge: Class 07
-Challenge Type: Code Challenge / Algorithm
+# Code Challenge: Class 07
+Challenge Type: Algorithm
 
 
 ## Whiteboard Process

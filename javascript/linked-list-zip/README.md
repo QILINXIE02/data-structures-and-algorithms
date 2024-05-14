@@ -1,5 +1,5 @@
 
-# Linked-List-kth Code Challenge: Class 07
+# Linked-List-zip Code Challenge: Class 08
 Given two linked lists, the challenge is to merge them into a single linked list by alternating nodes between the two lists. The function should return a reference to the merged list.
 
 Challenge Type: Extending an Implementation
