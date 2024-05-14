@@ -9,7 +9,7 @@
 ## [8. Linked-list-zip Code Challenge: Class 08 ](linked-list-zip/README.md)
 ## [10. Stacked-and-queue Code Challenge: Class 10 ](stack-and-queue/README.md)
 ## [11. Stacked-queue-pseudo Code Challenge: Class 11 ](Stack-queue-pseudo/README.md)
-
+## [12. stack-queue-animal-shelter Code Challenge: Class 12 ](stack-queue-animal-shelter/README.md)
 
 
 ORIGINAL README BELOW:
