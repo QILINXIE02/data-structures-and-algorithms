@@ -17,3 +17,4 @@ Write a function called validateBrackets that takes a string as input and return
 
 ## Credit
 ChatGPT help implemented the test file
+![alt text](image-1.png)
