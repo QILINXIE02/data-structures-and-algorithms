@@ -10,7 +10,7 @@
 ## [10. Stacked-and-queue Code Challenge: Class 10 ](stack-and-queue/README.md)
 ## [11. Stacked-queue-pseudo Code Challenge: Class 11 ](Stack-queue-pseudo/README.md)
 ## [12. stack-queue-animal-shelter Code Challenge: Class 12 ](stack-queue-animal-shelter/README.md)
-## [ ]()
+## [13. stack-queue-brackets Code Challenge: Class 13](Stack-queue-brackets/README.md)
 ## [ ]()
 ## [ ]()
 

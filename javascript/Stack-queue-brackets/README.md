@@ -1,4 +1,4 @@
-# Code Challenge: Class
+# Code Challenge: Class 13
 Write a function called validateBrackets that takes a string as input and returns a boolean indicating whether or not the brackets in the string are balanced. The function should consider three types of brackets: round brackets (), square brackets [], and curly brackets {}.
 
 ## Whiteboard Process
