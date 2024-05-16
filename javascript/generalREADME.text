@@ -10,8 +10,8 @@
 
 
 ### Big O
-Time Complexity: O(n) -
-Space Complexity: O(1) -
+Time Complexity: O() -
+Space Complexity: O() -
 
 ## Solution
 [Code link](./zip.test.js)
