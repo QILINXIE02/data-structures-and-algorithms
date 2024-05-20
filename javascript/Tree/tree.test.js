@@ -1,4 +1,4 @@
-const { Node, BinaryTree, BinarySearchTree } = require('./tree');
+const { Node, BinaryTree, BinarySearchTree } = require('./maxTree');
 
 describe('Binary Tree Traversal', () => {
     let tree;
