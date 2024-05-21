@@ -12,6 +12,7 @@
 ## [12. stack-queue-animal-shelter Code Challenge: Class 12 ](stack-queue-animal-shelter/README.md)
 ## [13. stack-queue-brackets Code Challenge: Class 13](Stack-queue-brackets/README.md)
 ## [15. Tree Code Challenge: Class 15](Tree/README.md)
+## [17. Tree-breadth-first Code Challenge: Class 17](tree-breadth-first/README.md)
 
 ORIGINAL README BELOW:
 # Data Structures and Algorithms
