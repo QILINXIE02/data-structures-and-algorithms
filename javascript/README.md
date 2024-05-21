@@ -13,6 +13,9 @@
 ## [13. stack-queue-brackets Code Challenge: Class 13](Stack-queue-brackets/README.md)
 ## [15. Tree Code Challenge: Class 15](Tree/README.md)
 ## [16. Tree-Max Code Challenge: Class 16](Tree-Max/README.md)
+## [17. Tree-breadth-first Code Challenge: Class 17](tree-breadth-first/README.md)
+
+=======
 
 ORIGINAL README BELOW:
 # Data Structures and Algorithms
