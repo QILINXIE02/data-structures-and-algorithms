@@ -1,0 +1,62 @@
+Step 1: Understand the Problem
+We have two file structures (directory trees).
+Each file directory can have at most 2 files or folders.
+We need to compare these two directory structures and determine whether they have the same number of individual files.
+
+Domain-Specific Words & Phrases:
+
+File Directory Structure: A tree-like structure where folders contain other folders or files.
+File: A unit of storage that holds data.
+Folder (Directory): A container that holds other files and folders.
+Sub-element: A child element within a folder (either another folder or a file).
+
+
+Imagine you have two folders with files inside them.
+Each folder can have at most 2 files or other folders.
+We want to compare these two folders and see if they have the same number of individual files.
+If they do, we say “true.” If not, we say “false.”
+Example:
+
+Folder 1 has 4 files.
+Folder 2 has 3 files.
+Since they don’t have the same number of files, it’s “false.”
+That’s it! We’re just counting files in folders.
+
+
+
+
+Step 2: Identify Test Cases
+
+Let’s create some test cases:
+
+Sample Test Case (True):
+Both trees contain 5 files.
+Ex:
+Tree 1:
+├── File A
+├── Folder X
+│   └── File B
+└── Folder Y
+    └── File C
+
+Tree 2:
+├── File D
+├── Folder P
+│   └── File E
+└── Folder Q
+    └── File F
+
+Empty Directories: Two directories with no files or folders. Expected output: True (both have 0 files).
+Directories with Folders Only: Two directories, each with one or two empty folders. Expected output: True (file count is 0 in both).
+Matching File Structure with Different Names: Two directories with different folder names but the same number of files spread across those folders. Expected output: True (same file count).
+Unequal File Count: Two directories with a different number of files within their structures. Expected output: False (unequal file count).
+
+Step 4: Plan the Algorithm
+We’ll count the number of individual files in each tree and compare the counts.
+
+
+Step 6: Verify
+Visually step through the code with the sample test cases to verify correctness.
+Big O analysis:
+Time complexity: O(N) (where N is the total number of files and folders in both trees)
+Space complexity: O(H) (where H is the height of the tree, due to the recursive call stack)

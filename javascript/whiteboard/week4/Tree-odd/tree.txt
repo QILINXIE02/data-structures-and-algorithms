@@ -1,0 +1,89 @@
+Step 1: Define the Problem
+Problem Statement: Find the sum of all the odd numbers in a binary search tree.
+
+
+
+simple steps:
+
+What’s a Binary Search Tree (BST)?
+Imagine a tree where each node has a value.
+The left side of the tree contains smaller values, and the right side contains larger values.
+It’s like a family tree, but with rules about who’s older or younger.
+Odd Numbers in a BST:
+We have a special tree (BST) with numbers.
+Some numbers are odd (like 3, 5, 7), and some are even (like 2, 4, 6).
+We want to find the sum of all the odd numbers in this tree.
+How to Do It?:
+Imagine you’re visiting each person in the family tree.
+If the person’s age (number) is odd, add it to your total.
+Keep doing this for everyone in the tree.
+The total you get is the sum of all the odd ages (numbers).
+
+
+
+Domain-Specific Words & Phrases:
+- Binary Search Tree (BST): A binary tree where each node has at most two children, and the left child contains values less than or equal to the node’s value, while the right child contains values greater than the node’s value.
+- Depth-First Search (DFS): A tree traversal method that explores as far as possible along each branch before backtracking.
+- Breadth-First Search (BFS): A tree traversal method that visits all nodes at a given level before moving to the next level.
+- Odd Number: An integer that cannot be divided evenly by 2.
+
+Step 2: Identify Test Cases
+Let’s start by discussing some test cases:
+
+Sample Test Case:
+Given the following BST:
+10
+/ \
+5   15
+/ \
+3 7 18 ```
+
+The odd numbers are: 3, 5, 7, and 15.
+Sum of odd numbers = 3 + 5 + 7 + 15 = 30.
+
+Additional Test Cases:
+Empty BST (no nodes).
+BST with only even numbers (e.g., 2, 4, 6).
+BST with only odd numbers (e.g., 1, 3, 5).
+
+
+Step 3: Visualize the Solution
+Let’s visualize the input and output:
+
+Input (BST):
+    10
+   / \
+  5   15
+ / \    \
+3   7    18
+
+Output (Sum of odd numbers): 30
+Step 4: Plan the Algorithm
+We’ll use an in-order traversal to visit the nodes in the BST. For each visited node:
+
+If the node’s value is odd, add it to the sum.
+Recurse on the left and right subtrees.
+
+Step 5: Code
+Here’s a pseudocode implementation using in-order traversal:
+function sumOfOddNumbers(root):
+    if root is null:
+        return 0
+    leftSum = sumOfOddNumbers(root.left)
+    rightSum = sumOfOddNumbers(root.right)
+    if root.value is odd:
+        return leftSum + rightSum + root.value
+    else:
+        return leftSum + rightSum
+
+
+
+
+
+
+
+Step 6: Verify
+Visually step through the code with the sample test case to verify correctness.
+Big O analysis:
+Time complexity: O(N) (where N is the number of nodes in the BST)
+Space complexity: O(H) (where H is the height of the BST, due to the recursive call stack)
