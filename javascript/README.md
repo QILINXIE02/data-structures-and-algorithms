@@ -14,7 +14,7 @@
 ## [15. Tree Code Challenge: Class 15](Tree/README.md)
 ## [16. Tree-Max Code Challenge: Class 16](Tree-Max/README.md)
 ## [17. Tree-breadth-first Code Challenge: Class 17](tree-breadth-first/README.md)
-
+## [18. Tree-fizz-buzz Code Challenge: Class 18](Tree-fizz-Buzz/README.md)
 =======
 
 ORIGINAL README BELOW:
