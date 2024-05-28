@@ -1,21 +1,31 @@
 # Table of Contents 401 - code challenges readme documentation:
 
+Week1:
 ## [1. Array-reverse Code Challenge: Class 01](arrays/reverse/README.md)
 ## [2. Array-insert-shift Code Challenge: Class 02](arrays/insert-shift/README.md)
 ## [3. Array-binary-search Code Challenge: Class 03](arrays/binary-search/README.md)
 ## [5. Linked-list Code challenge: Class 05](linked-list/README.md)
+
+Week2:
 ## [6. Linked-list-insertion Code Challenge: Class 06 ](Linked-list-insertion/README.md)
 ## [7. Linked-list-kth Code Challenge: Class 07 ](linked-list-kth/README.md)
 ## [8. Linked-list-zip Code Challenge: Class 08 ](linked-list-zip/README.md)
 ## [10. Stacked-and-queue Code Challenge: Class 10 ](stack-and-queue/README.md)
+
+Week3:
 ## [11. Stacked-queue-pseudo Code Challenge: Class 11 ](Stack-queue-pseudo/README.md)
 ## [12. stack-queue-animal-shelter Code Challenge: Class 12 ](stack-queue-animal-shelter/README.md)
 ## [13. stack-queue-brackets Code Challenge: Class 13](Stack-queue-brackets/README.md)
 ## [15. Tree Code Challenge: Class 15](Tree/README.md)
+
+Week4:
 ## [16. Tree-Max Code Challenge: Class 16](Tree-Max/README.md)
 ## [17. Tree-breadth-first Code Challenge: Class 17](tree-breadth-first/README.md)
 ## [18. Tree-fizz-buzz Code Challenge: Class 18](Tree-fizz-Buzz/README.md)
-=======
+
+Week6:
+## [26. Sorting-Insertion Code Challenge: Class 26](insertion/sorting/README.md)
+
 
 ORIGINAL README BELOW:
 # Data Structures and Algorithms

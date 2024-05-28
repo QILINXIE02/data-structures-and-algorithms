@@ -24,7 +24,6 @@ That’s it! We’re just counting files in folders.
 
 
 
-
 Step 2: Identify Test Cases
 
 Let’s create some test cases:
