@@ -1,4 +1,4 @@
-const { mergeSort } = require('./merge'); // Adjust the path as necessary
+const { mergeSort } = require('./merge');
 
 describe('Merge Sort', () => {
   test('sorts an array with random elements', () => {
