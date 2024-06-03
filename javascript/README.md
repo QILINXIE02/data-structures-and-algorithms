@@ -24,10 +24,10 @@ Week4:
 ## [18. Tree-fizz-buzz Code Challenge: Class 18](Tree-fizz-Buzz/README.md)
 
 Week6:
-## [26. Sorting-Insertion Code Challenge: Class 26](sorting-insertion/README.md)
-## [27. Sorting-merge Code Challenge: Class 27](sorting-merge/README.md)
-## [28. Sorting-comparison Code Challenge: Class 28](sorting-comparison/README.md)
-## [30. Hash Table Code Challenge: Class 30](Hash-Table/README.md)
+## [26. Sorting-Insertion blog: Class 26](insertion/sort/README.md)
+## [27. Sorting-merge blog: Class 27](sorting-merge/README.md)
+## [28. Sorting-comparison blog: Class 28](sorting-comparison/README.md)
+## [30. Hash Table blog: Class 30](Hash-Table/README.md)
 
 ORIGINAL README BELOW:
 # Data Structures and Algorithms
