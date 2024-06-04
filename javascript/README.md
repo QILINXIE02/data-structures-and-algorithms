@@ -25,7 +25,7 @@ Week4:
 
 Week6:
 ## [26. Sorting-Insertion blog: Class 26](insertion/sort/README.md)
-## [27. Sorting-merge blog: Class 27](sorting-merge/README.md)
+## [27. Sorting-merge blog: Class 27](sorting-merge/Blog.md), [Readme](sorting-merge/README.md)
 ## [28. Sorting-comparison blog: Class 28](sorting-comparison/README.md)
 ## [30. Hash Table blog: Class 30](Hash-Table/README.md)
 
