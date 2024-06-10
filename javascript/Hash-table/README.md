@@ -1,4 +1,4 @@
-# Hash Table Implementation in JavaScript
+# challenge 30: Hash Table Implementation in JavaScript
 Hash Function: A function that converts a key into a numerical index. This index determines where the key-value pair is stored in the hash table.
 
 ## Problem Domain
