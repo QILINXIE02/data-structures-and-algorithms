@@ -6,9 +6,6 @@ Write a function called `fizzBuzzTree` that accepts a k-ary tree and returns a n
 - If the value is divisible by both 3 and 5, replace it with "FizzBuzz".
 - If the value is not divisible by 3 or 5, convert the number to a string.
 
-## Whiteboard Process
-[Figma](https://www.figma.com/board/P7Qx6EUx5SrTtmfrgueRPA/Code-challenge18-FizzBuzz?node-id=0-1&t=Oqek0VuqOIsDUQ89-0) : ![alt text](image.png)
-
 ## Approach
 To implement `fizzBuzzTree`, we traverse the original k-ary tree and modify each node's value according to the specified rules. We then construct a new k-ary tree with the modified values while preserving the original tree's structure.
 

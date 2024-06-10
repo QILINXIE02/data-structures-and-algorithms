@@ -27,7 +27,13 @@ Week6:
 ## [26. Sorting-Insertion blog: Class 26](insertion/sort/README.md)
 ## [27. Sorting-merge blog: Class 27](sorting-merge/Blog.md), [Readme](sorting-merge/README.md)
 ## [28. Sorting-comparison blog: Class 28](sorting-comparison/README.md)
-## [30. Hash Table blog: Class 30](Hash-Table/README.md)
+## [30. Hash Table blog: Class 30](Hash-table/README.md)
+
+week 7:
+## [31. Hashmap Repeated Word: Class 31](hashmap-repeated-word/README.md)
+
+
+------
 
 ORIGINAL README BELOW:
 # Data Structures and Algorithms
