@@ -34,7 +34,8 @@ week 7:
 ## [32. Tree Intersection: Class 32](tree-intersection/README.md)
 ## [33. HashMap-left_join: Class 33](hashmap-left-join/README.md)
 ## [35. Graph: Class 33](Graph/README.md)
-------
+## [36. Graph-breadth-first: Class 36](graph-breadth-first/README.md)
+
 
 ORIGINAL README BELOW:
 # Data Structures and Algorithms
