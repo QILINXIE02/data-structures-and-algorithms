@@ -1,4 +1,5 @@
-const reverseArrayInPlace = require('./reverseArrayInPlace');
+const reverseArrayInPlace = require('./reverse-array');
+
 
 // Test cases
 describe('reverseArrayInPlace', () => {
